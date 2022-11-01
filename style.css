@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background: #0C1633;
+    color:aliceblue;
+    display:grid;
+    grid-template-columns: 1fr 1fr 18fr 2fr;
+    align-items: center;
+    font-size: 1.6rem;
+}
+main{
+    padding:40px 40px 40px 120px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size:1.5rem;
+}
+.logo-1{
+    display:flex;
+    justify-content: end;
+}
+.seccion1{
+    width:100%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.left-section{
+    width:80%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.left-section h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.left-section h4{
+    color:#98CA3F;
+    font-size:15px;
+}
+.left-section p{
+    font-size: 20px;
+}
+input{
+    width:250px;
+    height: 20px;
+    border-color:whitesmoke;
+    box-shadow:none;
+    border-width:0.5px;
+    outline:none;
+    margin-right: 10px;
+}
+button{
+    background-color:#98CA3F;
+    padding:0.7rem 5rem;
+    color:aliceblue;
+    border-radius: 5px;
+    border:none;
+}
+form{
+    display:flex;
+}
+.right-section{
+    width:50%;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.phone img{
+    height: 25rem;
+}
+.seccion2{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.first-section{
+    display: grid;
+    justify-content: start;
+    font-size: 15px;
+}
+
+.cards1 , .cards2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.plan{
+    background: #0C1633;
+    color: aliceblue;
+    font-size:12px;
+    padding:30px 50px;
+}
+.curso{
+    background: #0C1633;
+    color: aliceblue;
+    font-size:12px;
+    padding:30px 70px;
+}
+
+#curso1{
+    background: #98CA3F;
+}
+#curso2{
+    background: #17A2F8;
+}
+#curso3{
+    background: #FF8080;
+}
+footer{
+    background: #0C1633;
+    height: 190px;
+    color:aliceblue;
+    padding:30px;
+}
+.logo-pie{
+    display:flex;
+    align-items: center;
+}
+article{
+    padding:10px;
+}
+.lista-footer{
+    padding:10px;
+}
+.lista-footer li{
+    list-style: none;
+}
+.second-section h2,.third-section h2{
+    padding:20px 0;
+}
